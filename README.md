@@ -6,8 +6,6 @@ Está aqui o início de uma listagem que pode servir de referência para os dese
 - A lista trata-se apenas de tecnologia e ferramentas. Boas práticas, conceitos, padrões e técnicas não estão contidos aqui. 
 - Esta lista é dinâmica e será atualizada com freqüência. 
 
-Por favor, envie seus comentários.
-
 Tooling
 ===============
 
