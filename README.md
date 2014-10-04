@@ -8,7 +8,9 @@ Está aqui o início de uma listagem que pode servir de referência para os dese
 
 Por favor, envie seus comentários.
 
-**Tooling**
+Tooling
+===============
+
 | Finalidade                                                                                                                                                                 | Tecnologia           |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
 | Mais que uma IDE para o desenvolver aplicações .NET. Conhecer customizações, teclas de atalho, integrações com add-ins , análises e debugging agiliza bastante o trabalho. | Visual Studio 2013   |
@@ -21,7 +23,9 @@ Por favor, envie seus comentários.
 | Extensão para o Visual Studio com várias funcionalidades para desenvolvedores web.                                                                                         | Web Essentials       |
 | Gerenciamento de código, integração com o time, controle de bugs, features, projeto, integração contínua, etc. O Visual Studio Online é baseado no TFS.                    | Visual Studio Online |
 
-**Client Side**
+Client Side
+===============
+
 | Finalidade                                                                                                                                               | Tecnologia        |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
 | Realizar ações no browser como a comunicação assíncrona e a alteração do conteúdo do documento                                                           | JavaScript        |
@@ -38,7 +42,9 @@ Por favor, envie seus comentários.
 | Ampliar a manipulação de objetos JavaScript                                                                                                              | UnderscoreJs      |
 | Criar  programas de rede escaláveis de maneira fácil                                                                                                     | NodeJs            |
 
-**Backend**
+Backend
+===============
+
 | Finalidade                                                                                     | Tecnologia       |
 |------------------------------------------------------------------------------------------------|------------------|
 | Desenvolver aplicações web, serviços, componentes, games, apps em .NET                         | C#               |
@@ -52,7 +58,9 @@ Por favor, envie seus comentários.
 | Criar aplicações de tempo real                                                                 | ASP.NET SignalIR |
 | Trabalhar com ambiente em nuvem                                                                | Windows Azure    |
 
-**Storage**
+Storage
+===============
+
 | Finalidade                                                   | Tecnologia         |
 |--------------------------------------------------------------|--------------------|
 | Realizar consultas em qualquer banco de dados                | SQL ANSI           |
