@@ -3,9 +3,9 @@
 Lista de referência para os desenvolvedores iniciantes e para os que se atualizam constatemente. 
 Os itens desta lista expressa a visão do desenvolvedor web que utiliza tecnologia .NET.
 
-  - **Considerações:**
+  - **Considerações**:
 
-     - Os itens em negrito são as tecnologias essenciais, de escala 1 (as que você precisa dominar primeiro);
+     - Os itens com este icone (https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png) são as tecnologias essenciais, de escala 1 (as que você precisa dominar primeiro);
      - Esta é uma lista para uma pessoa com perfil em desenvolvimento web utilizando .NET;
      - A lista trata-se apenas de tecnologia e ferramentas. Boas práticas, conceitos, padrões e técnicas não estão contidos aqui;
      - Esta é uma tentativa de clarear o que cada coisa faz e que tecnologia atenderá isso;
@@ -22,15 +22,15 @@ Os itens desta lista expressa a visão do desenvolvedor web que utiliza tecnolog
 
 ## Tooling
 
-  - **Visual Studio**:
+  - **Visual Studio**: (https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
 
  	Mais que uma IDE para o desenvolver aplicações .NET. Conhecer customizações, teclas de atalho, integrações com add-ins , análises e debugging agiliza bastante o trabalho.
 
-  - **Git**: 
+  - **Git**: (https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
 
   	Sistema de controle de versão distribuído para pequenos e grandes projetos. Se destaca por ter local branching, staging areas e múltiplos workflows.
   
-  - **NuGet**: 
+  - **NuGet**: (https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
 	
 	Gerenciar pacotes de dependências para soluções .NET. Copia os arquivos da biblioteca solicitada para a sua solução e atualiza automaticamente seu projeto.
 
@@ -63,15 +63,15 @@ Os itens desta lista expressa a visão do desenvolvedor web que utiliza tecnolog
 
 ## Client Side
 
-  - **JavaScript**: 
+  - **JavaScript**: (https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
     
     Realizar ações no browser como a comunicação assíncrona e a alteração do conteúdo do documento.
   
-  - **HTML5**:
+  - **HTML5**: (https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
 
     Criar conteúdo web com bons recursos de semântica, acessibilidade e multimídia.
  
-  - **CSS3**: 
+  - **CSS3**: (https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
 
     Estilos para páginas web com efeitos de transição, imagem, e outros, que dão um estilo novo às páginas Web 2.0 em todos os aspectos de design do layout.
 
@@ -119,23 +119,23 @@ Os itens desta lista expressa a visão do desenvolvedor web que utiliza tecnolog
 
 ## Backend
 
-  - **C#:**
+  - **C#**: (https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
 
     Desenvolver aplicações web, serviços, componentes, games, apps em .NET.
 
-  - **ASP.Net MVC:**
+  - **ASP.Net MVC**: (https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
 
     Desenvolver aplicações web utilizando o modelo MVC.
 
-  - **LINQ:**
+  - **LINQ**: (https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
 
     Realizar consultas em repositórios de dados via objeto.
 
-  - **NHibernate:**
+  - **NHibernate**: (https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
 
     Mapear o banco de dados para a aplicação de maneira que ele seja disponível para o ambiente Orientado a Objetos.
 
-  - **Entity Framework:**
+  - **Entity Framework**: (https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
 
     Mapear o banco de dados para a aplicação de maneira que ele seja disponível para o ambiente Orienta a Objetos.
 
@@ -163,7 +163,7 @@ Os itens desta lista expressa a visão do desenvolvedor web que utiliza tecnolog
 
 ## Storage
 
-  - **SQL ANSI**:
+  - **SQL ANSI**: (https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
 
     Realizar comandos de CRUD em qualquer banco de dados.
 
