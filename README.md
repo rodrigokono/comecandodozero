@@ -55,6 +55,7 @@ Backend
 | Criar páginas web Single Page Applications                                                     | ASP.NET SPA      |
 | Criar aplicações de tempo real                                                                 | ASP.NET SignalIR |
 | Trabalhar com ambiente em nuvem                                                                | Windows Azure    |
+| Trabalhar com Injeção de dependencias                                                          | Unity            |
 
 Storage
 ===============
