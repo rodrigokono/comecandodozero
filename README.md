@@ -2,11 +2,10 @@
 
 Lista de referência para os desenvolvedores iniciantes e para os que se atualizam constatemente. 
 Os itens desta lista expressa a visão do desenvolvedor web que utiliza tecnologia .NET.
+Obs.: A lista trata-se apenas de tecnologia e ferramentas. Boas práticas, conceitos, padrões e técnicas não estão contidos aqui. 
 
-  - **Considerações**:
-
-<<<<<<< HEAD
-     - Os itens com este icone ![Aprender Primeiro](https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png) são as tecnologias essenciais, de escala 1 (as que você precisa dominar primeiro);
+  - **Considerações:**
+     - Os itens em negrito são as tecnologias essenciais, de escala 1 (as que você precisa dominar primeiro);
      - Esta é uma lista para uma pessoa com perfil em desenvolvimento web utilizando .NET;
      - A lista trata-se apenas de tecnologia e ferramentas. Boas práticas, conceitos, padrões e técnicas não estão contidos aqui;
      - Esta é uma tentativa de clarear o que cada coisa faz e que tecnologia atenderá isso;
@@ -21,184 +20,14 @@ Os itens desta lista expressa a visão do desenvolvedor web que utiliza tecnolog
   3. [Backend](#backend)
   4. [Storage](#storage)
 
+
 ## Tooling
-
-  - **Visual Studio**: ![Aprender Primeiro](https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
-
- 	Mais que uma IDE para o desenvolver aplicações .NET. Conhecer customizações, teclas de atalho, integrações com add-ins , análises e debugging agiliza bastante o trabalho.
-
-  - **Git**: ![Aprender Primeiro](https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
-
-  	Sistema de controle de versão distribuído para pequenos e grandes projetos. Se destaca por ter local branching, staging areas e múltiplos workflows.
-  
-  - **NuGet**: ![Aprender Primeiro](https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
-	
-	Gerenciar pacotes de dependências para soluções .NET. Copia os arquivos da biblioteca solicitada para a sua solução e atualiza automaticamente seu projeto.
-
-  - Grunt/Gulp:
-
-    Automatizar praticamente qualquer coisa com um mínimo de esforço possível. Por exemplo minification, build, testes unitários, linting, etc.
-
-  - Yeoman:
-
-    Produtividade / Scaffolds
-
-  - Bower:
-
-    Gerenciamento de dependência / pacotes (você não precisa mais baixar manualmente e gerenciar seus scripts).
-
-  - ReSharper:
-
-    Ferramenta de produtividade que torna o Visual Studio muito melhor. Inspeções de código, refatorações automatizadas, navegação rápida, assistência na codificação.
-
-  - Web Essentials:
-    
-    Extensão para o Visual Studio com várias funcionalidades para desenvolvedores web.
-
-
-  - Visual Studio Online:
-
-    Gerenciamento de código, integração com o time, controle de bugs, features, projeto, integração contínua, etc. O Visual Studio Online é baseado no TFS.
-
-**[Voltar ao topo](#tabela-de-conteúdo)**
-
-## Client Side
-
-  - **JavaScript**: ![Aprender Primeiro](https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
-    
-    Realizar ações no browser como a comunicação assíncrona e a alteração do conteúdo do documento.
-  
-  - **HTML5**: ![Aprender Primeiro](https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
-
-    Criar conteúdo web com bons recursos de semântica, acessibilidade e multimídia.
- 
-  - **CSS3**: ![Aprender Primeiro](https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
-
-    Estilos para páginas web com efeitos de transição, imagem, e outros, que dão um estilo novo às páginas Web 2.0 em todos os aspectos de design do layout.
-
-  - jQuery:
-
-    Manipular documentos, manipular eventos, realizar animaçóes e realizar posts ajax de maneira mais simples afim de extender o poder do javaScript.
-
-  - jQuery UI:
-
-    Utilizar controles de interface do usuário, tais como widgets, modal, combo, etc.
-
-  - Bootstrap:
-
-    Desenvolver interfaces de usuário de maneira ágil com responsividade e suporte à dispositivos móveis.
-
-  - HTML5 BoilerPlate:
-
-    Ajudar a desenvolver páginas ou web apps de maneira mais rápida, robusta e adaptáveis.
-
-  - AngularJS:
-
-    Poder no na criação de aplicações SPA (single-page applications) e outras aplicações da web.
-
-  - LESS:
-
-    Controlar o CSS, por exemplo com funções, variáveis, etc.
-
-  - RequireJS:
-
-    Obter velocidade e qualidade do código com o controle de dependências/bibliotecas.
-
-  - KnockoutJS:
-
-    Separação de dados e domínio na camada de interface do usuário. Simplificar a visão complexa de componentes.
-
-  - UnderscoreJS:
-
-    Ampliar a manipulação de objetos JavaScript.
-
-  - NodeJS:
-
-    Criar  programas de rede escaláveis de maneira fácil.
-
-**[Voltar ao topo](#tabela-de-conteúdo)**
-
-## Backend
-
-  - **C#**: ![Aprender Primeiro](https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
-
-    Desenvolver aplicações web, serviços, componentes, games, apps em .NET.
-
-  - **ASP.Net MVC**: ![Aprender Primeiro](https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
-
-    Desenvolver aplicações web utilizando o modelo MVC.
-
-  - **LINQ**: ![Aprender Primeiro](https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
-
-    Realizar consultas em repositórios de dados via objeto.
-
-  - **NHibernate**: ![Aprender Primeiro](https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
-
-    Mapear o banco de dados para a aplicação de maneira que ele seja disponível para o ambiente Orientado a Objetos.
-
-  - **Entity Framework**: ![Aprender Primeiro](https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
-
-    Mapear o banco de dados para a aplicação de maneira que ele seja disponível para o ambiente Orienta a Objetos.
-
-  - WCF:
-
-    Criar serviços de comunicação entre aplicações.
-
-  - ASP.Net Web API:
-
-    Criar e consumir APIs.
-
-  - ASP.Net SPA:
-
-    Criar páginas web Single Page Applications.
-
-  - ASP.Net SignalR:
-
-    Criar aplicações de tempo real.
-
-  - Windows Azure:
-
-    Trabalhar com ambiente em nuvem.
-
-**[Voltar ao topo](#tabela-de-conteúdo)**
-
-## Storage
-
-  - **SQL ANSI**: ![Aprender Primeiro](https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)
-
-    Realizar comandos de CRUD em qualquer banco de dados.
-
-  - MongoDB:
-
-    Um dos principais bancos NoSQL.
-
-  - SQL Azure:
-
-    Processamento e armazenamento de dados relacionais na nuvem.
-
-  - SQL Server:
-
-    Um dos principais SGBD do mercado.
-
-  - Oracle:
-
-    Um dos principais SGBD do mercado.
-
-  - Azure Blob Storage:
-
-    Armazenamento de grande quantidade de dados não estruturados.
-
-
-**[Voltar ao topo](#tabela-de-conteúdo)**
-=======
-Tooling
-===============
 
 | Finalidade                                                                                                                                                                 | Tecnologia           |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
-| Mais que uma IDE para o desenvolver aplicações .NET. Conhecer customizações, teclas de atalho, integrações com add-ins , análises e debugging agiliza bastante o trabalho. | Visual Studio 2013   |
-| Sistema de controle de versão distribuído para pequenos e grandes projetos. Se destaca por ter local branching, staging areas e múltiplos workflows                        | Git                  |
-| Gerenciar pacotes de dependências para soluções .NET. Copia os arquivos da biblioteca solicitada para a sua solução e atualiza automaticamente seu projeto.                | NuGet                |
+| Mais que uma IDE para o desenvolver aplicações .NET. Conhecer customizações, teclas de atalho, integrações com add-ins , análises e debugging agiliza bastante o trabalho. | **Visual Studio **   |
+| Sistema de controle de versão distribuído para pequenos e grandes projetos. Se destaca por ter local branching, staging areas e múltiplos workflows                        | **Git**                  |
+| Gerenciar pacotes de dependências para soluções .NET. Copia os arquivos da biblioteca solicitada para a sua solução e atualiza automaticamente seu projeto.                | **NuGet**                |
 | Automatizar praticamente qualquer coisa com um mínimo de esforço possível. Por exemplo minification, build, testes unitários, linting, etc                                 | Grunt / Gulp         |
 | Produtividade / Scaffolds                                                                                                                                                  | Yeoman               |
 | Gerenciamento de dependência / pacotes (você não precisa mais baixar manualmente e gerenciar seus scripts)                                                                 | Bower                |
@@ -206,14 +35,15 @@ Tooling
 | Extensão para o Visual Studio com várias funcionalidades para desenvolvedores web.                                                                                         | Web Essentials       |
 | Gerenciamento de código, integração com o time, controle de bugs, features, projeto, integração contínua, etc. O Visual Studio Online é baseado no TFS.                    | Visual Studio Online |
 
-Client Side
-===============
+**[Voltar ao topo](#tabela-de-conteúdo)**
+
+## Client Side
 
 | Finalidade                                                                                                                                               | Tecnologia        |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| Realizar ações no browser como a comunicação assíncrona e a alteração do conteúdo do documento                                                           | JavaScript        |
-| Criar conteúdo web com bons recursos de semântica, acessibilidade e multimídia.                                                                          | HTML5             |
-| Estilos para páginas web com efeitos de transição, imagem, e outros, que dão um estilo novo às páginas Web 2.0 em todos os aspectos de design do layout. | CSS3              |
+| Realizar ações no browser como a comunicação assíncrona e a alteração do conteúdo do documento                                                           | **JavaScript**        |
+| Criar conteúdo web com bons recursos de semântica, acessibilidade e multimídia.                                                                          | **HTML5**             |
+| Estilos para páginas web com efeitos de transição, imagem, e outros, que dão um estilo novo às páginas Web 2.0 em todos os aspectos de design do layout. | **CSS3**              |
 | Manipular documentos, manipular eventos, realizar animaçóes e realizar posts ajax de maneira mais simples afim de extender o poder do javaScript         | jQuery            |
 | Utilizar controles de interface do usuário, tais como widgets, modal, combo, etc                                                                         | jQuery UI         |
 | Desenvolver interfaces de usuário de maneira ágil com responsividade e suporte à dispositivos móveis                                                     | Bootstrap         |
@@ -225,16 +55,17 @@ Client Side
 | Ampliar a manipulação de objetos JavaScript                                                                                                              | UnderscoreJs      |
 | Criar  programas de rede escaláveis de maneira fácil                                                                                                     | NodeJs            |
 
-Backend
-===============
+**[Voltar ao topo](#tabela-de-conteúdo)**
+
+## Backend
 
 | Finalidade                                                                                     | Tecnologia       |
 |------------------------------------------------------------------------------------------------|------------------|
-| Desenvolver aplicações web, serviços, componentes, games, apps em .NET                         | C#               |
-| Desenvolver aplicações web utilizando o modelo MVC                                             | ASP.NET MVC 5    |
-| Realizar consultas em repositórios de dados via objeto.                                        | LINQ             |
-| Mapear o banco de dados para a aplicação de maneira que ele seja disponível para o ambiente OO | Nhibernate       |
-| Mapear o banco de dados para a aplicação de maneira que ele seja disponível para o ambiente OO | Entity Framework |
+| Desenvolver aplicações web, serviços, componentes, games, apps em .NET                         | **C#**               |
+| Desenvolver aplicações web utilizando o modelo MVC                                             | **ASP.NET MVC 5**    |
+| Realizar consultas em repositórios de dados via objeto.                                        | **LINQ**             |
+| Mapear o banco de dados para a aplicação de maneira que ele seja disponível para o ambiente OO | **NHibernate**       |
+| Mapear o banco de dados para a aplicação de maneira que ele seja disponível para o ambiente OO | **Entity Framework** |
 | Criar serviços de comunicação entre aplicações.                                                | WCF              |
 | Criar e consumir APIs                                                                          | ASP.NET WEB API  |
 | Criar páginas web Single Page Applications                                                     | ASP.NET SPA      |
@@ -242,15 +73,17 @@ Backend
 | Trabalhar com ambiente em nuvem                                                                | Windows Azure    |
 | Trabalhar com Injeção de dependencias                                                          | Unity            |
 
-Storage
-===============
+**[Voltar ao topo](#tabela-de-conteúdo)**
+
+## Storage
 
 | Finalidade                                                   | Tecnologia         |
 |--------------------------------------------------------------|--------------------|
-| Realizar consultas em qualquer banco de dados                | SQL ANSI           |
+| Realizar consultas em qualquer banco de dados                | **SQL ANSI**           |
 | Um dos principais bancos NoSQL                               | MongoDB            |
 | Processamento e armazenamento de dados relacionais na nuvem  | SQL Azure          |
 | Um dos principais SGBD do mercado                            | SQL Server         |
 | Um dos principais SGBD do mercado                            | Oracle             |
 | Armazenamento de grande quantidade de dados não estruturados | Azure Blob Storage |
->>>>>>> master
+
+**[Voltar ao topo](#tabela-de-conteúdo)**
