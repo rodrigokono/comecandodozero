@@ -31,6 +31,7 @@ Os itens desta lista expressam a visão do desenvolvedor web que utiliza tecnolo
 | Produtividade / Scaffolds                                                                                                                                                  | Yeoman               |
 | Gerenciamento de dependência / pacotes (você não precisa mais baixar manualmente e gerenciar seus scripts)                                                                 | Bower                |
 | Ferramenta de produtividade que torna o Visual Studio muito melhor. Inspeções de código, refatorações automatizadas, navegação rápida, assistência na codificação.         | ReSharper            |
+| Extensão gratuita para o Visual Studio com algumas melhorias de produtividade, como ajuda rápida, visualização de erros de compilação e várias outras utilidades.                                                                                          | Productivity Power Tools        |
 | Extensão para o Visual Studio com várias funcionalidades para desenvolvedores web, como melhorias nos editores de CSS, Javascript, HTML além de ferramentas para LESS, CoffeeScript, TypeScript, etc.                                                                                         | Web Essentials       |
 | Gerenciamento de código, integração com o time, controle de bugs, features, projeto, integração contínua, etc. O Visual Studio Online é baseado no TFS.                    | Visual Studio Online |
 
