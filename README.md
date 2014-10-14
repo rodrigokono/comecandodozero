@@ -32,6 +32,7 @@ Os itens desta lista expressam a visão do desenvolvedor web que utiliza tecnolo
 | Gerenciamento de dependência / pacotes (você não precisa mais baixar manualmente e gerenciar seus scripts)                                                                 | [Bower](http://bower.io/)                |
 | Ferramenta de produtividade que torna o Visual Studio muito melhor. Inspeções de código, refatorações automatizadas, navegação rápida, assistência na codificação.         | [ReSharper](http://www.jetbrains.com/resharper/)            |
 | Extensão gratuita para o Visual Studio com algumas melhorias de produtividade, como ajuda rápida, visualização de erros de compilação e várias outras utilidades.                                                                                          | [Productivity Power Tools](https://visualstudiogallery.msdn.microsoft.com/dbcb8670-889e-4a54-a226-a48a15e4cace)        |
+| Extensão open-souce para o Visual Studio com algumas melhorias de produtividade relacionados a formatação, organização e limpeza dos códigos-fonte, além de outras utilidades.                                                                                         | [Code Maid](http://www.codemaid.net/)       |
 | Extensão para o Visual Studio com várias funcionalidades para desenvolvedores web, como melhorias nos editores de CSS, Javascript, HTML além de ferramentas para LESS, CoffeeScript, TypeScript, etc.                                                                                         | [Web Essentials](http://vswebessentials.com/)       |
 | Gerenciamento de código, integração com o time, controle de bugs, features, projeto, integração contínua, etc. O Visual Studio Online é baseado no TFS.                    | [Visual Studio Online](http://www.visualstudio.com/en-us/products/what-is-visual-studio-online-vs.aspx) |
 
@@ -69,7 +70,7 @@ Os itens desta lista expressam a visão do desenvolvedor web que utiliza tecnolo
 | Criar Web Services REST e WS-*/SOAP em diferentes tipos de protocolos, para comunicação entre aplicações                                               | [WCF](http://msdn.microsoft.com/en-us/library/dd456779.aspx)              |
 | Criar Web Services HTTP, para comunicação entre aplicações. Possui uma maneira mais madura de criar APIs RESTfull                                                                          | [ASP.NET WEB API](http://www.asp.net/web-api)  |
 | Criar páginas web Single Page Applications                                                     | [ASP.NET SPA](http://www.asp.net/single-page-application)      |
-| Criar aplicações de tempo real                                                                 | [ASP.NET SignalI](http://www.asp.net/signalr) |
+| Criar aplicações de tempo real                                                                 | [ASP.NET SignalR](http://www.asp.net/signalr) |
 | Trabalhar com ambiente em nuvem                                                                | [Windows Azure](http://azure.microsoft.com/pt-br/)    |
 | Trabalhar com Injeção de dependências                                                          | [Unity](https://unity.codeplex.com/)            |
 
