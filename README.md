@@ -35,6 +35,8 @@ Os itens desta lista expressam a visão do desenvolvedor web que utiliza tecnolo
 | Extensão open-souce para o Visual Studio com algumas melhorias de produtividade relacionados a formatação, organização e limpeza dos códigos-fonte, além de outras utilidades.                                                                                         | [Code Maid](http://www.codemaid.net/)       |
 | Extensão para o Visual Studio com várias funcionalidades para desenvolvedores web, como melhorias nos editores de CSS, Javascript, HTML além de ferramentas para LESS, CoffeeScript, TypeScript, etc.                                                                                         | [Web Essentials](http://vswebessentials.com/)       |
 | Gerenciamento de código, integração com o time, controle de bugs, features, projeto, integração contínua, etc. O Visual Studio Online é baseado no TFS.                    | [Visual Studio Online](http://www.visualstudio.com/en-us/products/what-is-visual-studio-online-vs.aspx) |
+| Titulo Baixando VS e criando um projeto                                                                                                                                    | [Visual Studio](https://www.youtube.com/watch?v=XBlXjD0AYkg) |
+| Primeiro commit/push no GIT                                                                                                                                                | [GIT](https://www.youtube.com/watch?v=HTBUMpqkk5w) |
 
 **[Voltar ao topo](#tabela-de-conteúdo)**
 
@@ -55,6 +57,7 @@ Os itens desta lista expressam a visão do desenvolvedor web que utiliza tecnolo
 | Separação de dados e domínio na camada de interface do usuário. Simplificar a visão complexa de componentes.                                             | [KnockoutJs](http://knockoutjs.com/)        |
 | Ampliar a manipulação de objetos JavaScript                                                                                                              | [UnderscoreJs](http://underscorejs.org/)      |
 | Criar programas de rede escaláveis de maneira fácil                                                                                                     | [NodeJs](http://nodejs.org/)            |
+| Editores de texto simples                                                                                                                             | [Editores](https://www.youtube.com/watch?v=F8vbKKz12og&feature=youtu.be)            |
 
 **[Voltar ao topo](#tabela-de-conteúdo)**
 
