@@ -25,7 +25,7 @@ Os itens desta lista expressam a visão do desenvolvedor web que utiliza tecnolo
 | Finalidade                                                                                                                                                                 | Tecnologia           |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
 | Mais que uma IDE para o desenvolver aplicações .NET. Conhecer customizações, teclas de atalho, integrações com add-ins , análises e debugging agiliza bastante o trabalho. | [**Visual Studio**](http://www.visualstudio.com/)  ![Aprender Primeiro](https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png) |
-| Sistema de controle de versão distribuído para pequenos e grandes projetos. Se destaca por ter local branching, staging areas e múltiplos workflows | [**Git**](http://git-scm.com/)  ![Aprender Primeiro](https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)                |
+| Sistema de controle de versão distribuído para pequenos e grandes projetos. Se destaca por ter local branching, staging areas e múltiplos workflows <br>[video 01 - Instalação, clone de repositório, commit e push - (4:37)](https://www.youtube.com/watch?v=HTBUMpqkk5w)| [**Git**](http://git-scm.com/)  ![Aprender Primeiro](https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)                |
 | Gerenciar pacotes de dependências para soluções .NET. Copia os arquivos da biblioteca solicitada para a sua solução e atualiza automaticamente seu projeto.                | [**NuGet**](https://www.nuget.org/) ![Aprender Primeiro](https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png)               |
 | Automatizar praticamente qualquer coisa com um mínimo de esforço possível. Por exemplo minification, build, testes unitários, linting, etc                                 | [Grunt](http://gruntjs.com/) / [Gulp](http://gulpjs.com/)         |
 | Produtividade / Scaffolds                                                                                                                                                  | [Yeoman](http://yeoman.io/)               |
@@ -35,8 +35,6 @@ Os itens desta lista expressam a visão do desenvolvedor web que utiliza tecnolo
 | Extensão open-souce para o Visual Studio com algumas melhorias de produtividade relacionados a formatação, organização e limpeza dos códigos-fonte, além de outras utilidades.                                                                                         | [Code Maid](http://www.codemaid.net/)       |
 | Extensão para o Visual Studio com várias funcionalidades para desenvolvedores web, como melhorias nos editores de CSS, Javascript, HTML além de ferramentas para LESS, CoffeeScript, TypeScript, etc.                                                                                         | [Web Essentials](http://vswebessentials.com/)       |
 | Gerenciamento de código, integração com o time, controle de bugs, features, projeto, integração contínua, etc. O Visual Studio Online é baseado no TFS.                    | [Visual Studio Online](http://www.visualstudio.com/en-us/products/what-is-visual-studio-online-vs.aspx) |
-| Baixando VS e criando um projeto                                                                                                                                    | [Visual Studio](https://www.youtube.com/watch?v=XBlXjD0AYkg) |
-| Primeiro commit/push no GIT                                                                                                                                                | [GIT](https://www.youtube.com/watch?v=HTBUMpqkk5w) |
 
 **[Voltar ao topo](#tabela-de-conteúdo)**
 
@@ -57,7 +55,6 @@ Os itens desta lista expressam a visão do desenvolvedor web que utiliza tecnolo
 | Separação de dados e domínio na camada de interface do usuário. Simplificar a visão complexa de componentes.                                             | [KnockoutJs](http://knockoutjs.com/)        |
 | Ampliar a manipulação de objetos JavaScript                                                                                                              | [UnderscoreJs](http://underscorejs.org/)      |
 | Criar programas de rede escaláveis de maneira fácil                                                                                                     | [NodeJs](http://nodejs.org/)            |
-| Editores de texto simples                                                                                                                             | [Editores](https://www.youtube.com/watch?v=F8vbKKz12og&feature=youtu.be)            |
 
 **[Voltar ao topo](#tabela-de-conteúdo)**
 
