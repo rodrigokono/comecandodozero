@@ -1,67 +1,336 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8">
     <title>Começando do Zero by rodrigokono</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
-
   <body>
-    <div id="container">
-      <div class="inner">
+    <section class="page-header">
+      <h1 class="project-name">Começando do Zero</h1>
+      <h2 class="project-tagline">Guia de primeiros passos do desenvolvedor .NET</h2>
+      <a href="https://github.com/rodrigokono/comecandodozero" class="btn">View on GitHub</a>
+      <a href="https://github.com/rodrigokono/comecandodozero/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/rodrigokono/comecandodozero/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-        <header>
-          <h1>Começando do Zero</h1>
-          <h2>Guia de primeiros passos do desenvolvedor .NET</h2>
-        </header>
+    <section class="main-content">
+      <h1>
+<a id="começando-do-zero" class="anchor" href="#come%C3%A7ando-do-zero" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Começando do Zero</h1>
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/rodrigokono/comecandodozero/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/rodrigokono/comecandodozero/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/rodrigokono/comecandodozero" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
+<p>Lista de referência para os desenvolvedores iniciantes e para os que se atualizam constantemente. 
+Os itens desta lista expressam a visão do desenvolvedor web que utiliza tecnologia .NET.</p>
 
-        <hr>
+<ul>
+<li>
+<strong>Considerações:</strong>
 
-        <section id="main_content">
-          <p>****### Welcome to GitHub Pages.
-This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+<ul>
+<li>Os itens com este icone <img src="https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png" alt="Aprender Primeiro"> são as tecnologias essenciais, de escala 1 (as que você precisa dominar primeiro);</li>
+<li>Esta é uma lista para uma pessoa com perfil em desenvolvimento web utilizando .NET;</li>
+<li>A lista trata-se apenas de tecnologia e ferramentas. Boas práticas, conceitos, padrões e técnicas não estão contidos aqui;</li>
+<li>Esta é uma tentativa de clarear o que cada coisa faz e que tecnologia atenderá isso;</li>
+<li>Não há tecnologias muito específicas (como frameworks de testes, mocks, etc) e outras tecnologias mais avançadas e não tão populares ainda (como dapper).</li>
+</ul>
+</li>
+</ul>
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
+<p><em>Esta lista é dinâmica e será atualizada com freqüência, inclusive sua contribuição é bem-vinda!</em> Para saber mais o que motivou a criação desta lista acesse  o artigo <a href="http://www.rodrigokono.net/2014/10/03/comeando-do-zero-quais-tecnologias-preciso-aprender-hoje-e-porque/">Começando do zero!</a></p>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+<h2>
+<a id="tabela-de-conteúdo" class="anchor" href="#tabela-de-conte%C3%BAdo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tabela de Conteúdo</h2>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
+<ol>
+<li><a href="#tooling">Tooling</a></li>
+<li><a href="#client-side">Client Side</a></li>
+<li><a href="#backend">Backend</a></li>
+<li><a href="#storage">Storage</a></li>
+</ol>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<h2>
+<a id="tooling" class="anchor" href="#tooling" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tooling</h2>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<table>
+<thead>
+<tr>
+<th>Finalidade</th>
+<th>Tecnologia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mais que uma IDE para o desenvolver aplicações .NET. Conhecer customizações, teclas de atalho, integrações com add-ins , análises e debugging agiliza bastante o trabalho. <br><a href="https://www.youtube.com/watch?v=mVkngdaZPXU">video 01 - Baixando VS e criando um projeto - (8:33)</a><br><a href="https://www.youtube.com/watch?v=5f8HcqXESIY">video 02 - Adicionando linhas e trocando o estilo do visual studio - (1:44)</a>
+</td>
+<td>
+<a href="http://www.visualstudio.com/"><strong>Visual Studio</strong></a>  <img src="https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png" alt="Aprender Primeiro">
+</td>
+</tr>
+<tr>
+<td>Sistema de controle de versão distribuído para pequenos e grandes projetos. Se destaca por ter local branching, staging areas e múltiplos workflows <br><a href="https://www.youtube.com/watch?v=HTBUMpqkk5w">video 01 - Instalação, clone de repositório, commit e push - (4:37)</a><br><a href="https://www.youtube.com/watch?v=RJnDv6P3UCo">video 02 - Configurando usuário no git - (1:41)</a><br><a href="https://www.youtube.com/watch?v=QKMNOkrC_tQ">video 03 - Ignorando arquivos nos commits - (4:30)</a> <br><a href="https://youtu.be/MC68oeXhVPk">video 04 - Criando repositorio local e subindo no GitHub - (3:12)</a>
+</td>
+<td>
+<a href="http://git-scm.com/"><strong>Git</strong></a>  <img src="https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png" alt="Aprender Primeiro">
+</td>
+</tr>
+<tr>
+<td>Gerenciar pacotes de dependências para soluções .NET. Copia os arquivos da biblioteca solicitada para a sua solução e atualiza automaticamente seu projeto.  <br><a href="https://www.youtube.com/watch?v=IXWB68X0b-c">video 01 - Baixando pacotes com o nuget - (3:17)</a>
+</td>
+<td>
+<a href="https://www.nuget.org/"><strong>NuGet</strong></a> <img src="https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png" alt="Aprender Primeiro">
+</td>
+</tr>
+<tr>
+<td>Automatizar praticamente qualquer coisa com um mínimo de esforço possível. Por exemplo minification, build, testes unitários, linting, etc</td>
+<td>
+<a href="http://gruntjs.com/">Grunt</a> / <a href="http://gulpjs.com/">Gulp</a>
+</td>
+</tr>
+<tr>
+<td>Produtividade / Scaffolds</td>
+<td><a href="http://yeoman.io/">Yeoman</a></td>
+</tr>
+<tr>
+<td>Gerenciamento de dependência / pacotes (você não precisa mais baixar manualmente e gerenciar seus scripts)</td>
+<td><a href="http://bower.io/">Bower</a></td>
+</tr>
+<tr>
+<td>Ferramenta de produtividade que torna o Visual Studio muito melhor. Inspeções de código, refatorações automatizadas, navegação rápida, assistência na codificação.</td>
+<td><a href="http://www.jetbrains.com/resharper/">ReSharper</a></td>
+</tr>
+<tr>
+<td>Extensão gratuita para o Visual Studio com algumas melhorias de produtividade, como ajuda rápida, visualização de erros de compilação e várias outras utilidades.</td>
+<td><a href="https://visualstudiogallery.msdn.microsoft.com/dbcb8670-889e-4a54-a226-a48a15e4cace">Productivity Power Tools</a></td>
+</tr>
+<tr>
+<td>Extensão open-souce para o Visual Studio com algumas melhorias de produtividade relacionados a formatação, organização e limpeza dos códigos-fonte, além de outras utilidades.</td>
+<td><a href="http://www.codemaid.net/">Code Maid</a></td>
+</tr>
+<tr>
+<td>Extensão para o Visual Studio com várias funcionalidades para desenvolvedores web, como melhorias nos editores de CSS, Javascript, HTML além de ferramentas para LESS, CoffeeScript, TypeScript, etc.</td>
+<td><a href="http://vswebessentials.com/">Web Essentials</a></td>
+</tr>
+<tr>
+<td>Gerenciamento de código, integração com o time, controle de bugs, features, projeto, integração contínua, etc. O Visual Studio Online é baseado no TFS.</td>
+<td><a href="http://www.visualstudio.com/en-us/products/what-is-visual-studio-online-vs.aspx">Visual Studio Online</a></td>
+</tr>
+</tbody>
+</table>
 
-<p>You can <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p><strong><a href="#tabela-de-conte%C3%BAdo">Voltar ao topo</a></strong></p>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+<h2>
+<a id="client-side" class="anchor" href="#client-side" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Client Side</h2>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-        </section>
+<table>
+<thead>
+<tr>
+<th>Finalidade</th>
+<th>Tecnologia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Realizar ações no browser como a comunicação assíncrona e a alteração do conteúdo do documento <br><a href="https://www.youtube.com/watch?v=4UnWV8Hu76E">video 01 - Enviando a primeira mensagem para o navegador - (3:59)</a> <br><a href="https://www.youtube.com/watch?v=hB5KO_WUxcM">video 02 - Pegando valores de campos HTML - (5:46)</a> <br><a href="https://www.youtube.com/watch?v=0_jMyI058IQ">video 03 - Criando uma calcularoa - (3:36)</a>
+</td>
+<td>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"><strong>JavaScript</strong></a> <img src="https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png" alt="Aprender Primeiro">
+</td>
+</tr>
+<tr>
+<td>Estruturar e apresentar conteúdos na web com bons recursos de semântica, acessibilidade e multimídia. <br><a href="https://www.youtube.com/watch?v=qVmTI4Weq-Q">video 01 - Html básico primeiros passos - (3:37)</a> <br><a href="https://www.youtube.com/watch?v=Z07LB81l-AA">video 02 - Html básico adicionando campos - (3:04)</a> <br><a href="https://www.youtube.com/watch?v=XJgo7kaBrFQ">video 03 - Html básico criando um formulário - (5:41)</a> <br><a href="https://www.youtube.com/watch?v=f6Ky3a_71FQ">video 04 - Html básico adicionando vídeo - (2:33)</a> <br><a href="https://www.youtube.com/watch?v=Tbjplz9mqxE">video 05 - Html básico adicionando audio - (2:21)</a>
+</td>
+<td>
+<a href="http://www.w3.org/TR/html5/"><strong>HTML5</strong></a> <img src="https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png" alt="Aprender Primeiro">
+</td>
+</tr>
+<tr>
+<td>Estilos para páginas web com efeitos de transição, imagem, e outros, que dão um estilo novo às páginas Web 2.0 em todos os aspectos de design do layout. <br><a href="https://www.youtube.com/watch?v=caug-htWJ1Y">video 01 - Css básico primeiros passos - (6:21)</a>
+</td>
+<td>
+<a href="http://www.w3.org/TR/CSS/"><strong>CSS3</strong></a> <img src="https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png" alt="Aprender Primeiro">
+</td>
+</tr>
+<tr>
+<td>Manipular documentos, manipular eventos, realizar animações e realizar posts ajax de maneira mais simples afim de extender o poder do javaScript   <br><a href="https://www.youtube.com/watch?v=Uhkx7z12ub8">video 01 - Jquery adicionando a biblioteca - (3:43)</a> <br><a href="https://www.youtube.com/watch?v=wiRMYK6DZys">video 02 - Jquery pegando tecladas pressionadas pelo usuário - (3:24)</a>
+</td>
+<td><a href="http://jquery.com/">jQuery</a></td>
+</tr>
+<tr>
+<td>Utilizar controles de interface do usuário, tais como widgets, modal, combo, etc    <br><a href="https://www.youtube.com/watch?v=vDuAKrswC2c">video 01 - jQuery UI adicionando a biblioteca e Draggable - (4:19)</a>
+</td>
+<td><a href="http://jqueryui.com/">jQuery UI</a></td>
+</tr>
+<tr>
+<td>Desenvolver interfaces de usuário de maneira ágil com responsividade e suporte à dispositivos móveis <br><a href="https://www.youtube.com/watch?v=2t9mKvCu2AQ">video 01 - Configurando o bootstrap - (2:56)</a>
+</td>
+<td>
+<a href="http://getbootstrap.com/">Bootstrap</a> / <a href="http://foundation.zurb.com/">Foundation</a>
+</td>
+</tr>
+<tr>
+<td>Ajudar a desenvolver páginas ou web apps de maneira mais rápida, robusta e adaptáveis.</td>
+<td><a href="http://html5boilerplate.com/">HTML5 BoilerPlate</a></td>
+</tr>
+<tr>
+<td>Ajudar na criação de aplicações SPA (single-page applications) e outras aplicações da web.  <br><a href="https://www.youtube.com/watch?v=D2QDxz2Pu9o&amp;feature=youtu.be">video 01 - Adicionando a biblioteca - (1:56)</a>
+</td>
+<td><a href="https://angularjs.org/">AngularJS</a></td>
+</tr>
+<tr>
+<td>Pré-compilador de CSS, permite trabalhar com funções, variáveis, e etc.</td>
+<td><a href="http://lesscss.org">LESS</a></td>
+</tr>
+<tr>
+<td>Obter velocidade e qualidade do código com o controle de dependências/bibliotecas.</td>
+<td><a href="http://requirejs.org/">RequireJs</a></td>
+</tr>
+<tr>
+<td>Separação de dados e domínio na camada de interface do usuário. Simplificar a visão complexa de componentes.</td>
+<td><a href="http://knockoutjs.com/">KnockoutJs</a></td>
+</tr>
+<tr>
+<td>Ampliar a manipulação de objetos JavaScript</td>
+<td><a href="http://underscorejs.org/">UnderscoreJs</a></td>
+</tr>
+<tr>
+<td>Criar programas de rede escaláveis de maneira fácil     <br><a href="https://www.youtube.com/watch?v=GLwxJrBK7cs">video 01 - Instalação do Nodejs - (2:46)</a>
+</td>
+<td><a href="http://nodejs.org/">NodeJs</a></td>
+</tr>
+</tbody>
+</table>
 
-        <footer>
-          Começando do Zero is maintained by <a href="https://github.com/rodrigokono">rodrigokono</a><br>
-          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
+<p><strong><a href="#tabela-de-conte%C3%BAdo">Voltar ao topo</a></strong></p>
 
-        
-      </div>
-    </div>
+<h2>
+<a id="backend" class="anchor" href="#backend" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Backend</h2>
+
+<table>
+<thead>
+<tr>
+<th>Finalidade</th>
+<th>Tecnologia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Desenvolver aplicações web, serviços, componentes, games, apps em .NET</td>
+<td>
+<a href="http://msdn.microsoft.com/pt-br/library/kx37x362.aspx"><strong>C#</strong></a> <img src="https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png" alt="Aprender Primeiro">
+</td>
+</tr>
+<tr>
+<td>Desenvolver aplicações web utilizando o modelo MVC <br><a href="https://www.youtube.com/watch?v=d5Gmp8YIhwE">video 01 - Criando um projeto .NET MVC - (5:45)</a> <br><a href="https://www.youtube.com/watch?v=4-OKLt_VMMU">video 02 - Otimizando um projeto .Net MVC - (2:00)</a> <br><a href="https://www.youtube.com/watch?v=5GBfN9l51gI">video 03 - Overview de um projeto .Net  MVC - (5:10)</a>
+</td>
+<td>
+<a href="http://www.asp.net/mvc"><strong>ASP.NET MVC 5</strong></a>  <img src="https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png" alt="Aprender Primeiro">
+</td>
+</tr>
+<tr>
+<td>Realizar consultas de maneira unificada em diversos tipos de coleções de dados.</td>
+<td>
+<a href="http://msdn.microsoft.com/pt-br/library/bb397926.aspx"><strong>LINQ</strong></a> <img src="https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png" alt="Aprender Primeiro">
+</td>
+</tr>
+<tr>
+<td>Mapear o banco de dados para a aplicação de maneira que ele seja disponível para o ambiente OO  <br><a href="https://www.youtube.com/watch?v=d-NeH9-N3dY">video 01 - Configurando o Fluent Nhibernate - (4:56)</a> <br><a href="https://www.youtube.com/watch?v=rVDMqmoU5Rc">video 02 - Buscando valores com o Fluent Nhibernate - (3:28)</a> <br><a href="https://www.youtube.com/watch?v=2GOHxBKHTz0">video 03 - Inserindo valores com o Fluent Nhibernate - (3:21)</a> <br><a href="https://www.youtube.com/watch?v=Fhr7BWWaow0">video 04 - Deletando valores com o Fluent Nhibernate - (5:07)</a> <br><a href="https://www.youtube.com/watch?v=6mzcEQ7Ub7E">video 05 - Relacionamento 1 x1 com Fluent Nhibernate - (2:45)</a> <br><a href="https://www.youtube.com/watch?v=pw9ds5r6_8A">video 06 - Relacionamento 1 x n com Fluent Nhibernate - (2:22)</a> <br><a href="https://www.youtube.com/watch?v=BPNa6ENaZZQ">video 07 - Relacionamento n x n com Fluent Nhibernate - (2:53)</a>
+</td>
+<td>
+<a href="http://nhforge.org/"><strong>NHibernate</strong></a> <img src="https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png" alt="Aprender Primeiro">
+</td>
+</tr>
+<tr>
+<td>Mapear o banco de dados para a aplicação de maneira que ele seja disponível para o ambiente OO <br><a href="https://www.youtube.com/watch?v=7mzLyXoseh4">video 01 - Configurando o EF e fazendo uma query - (7:01)</a> <br><a href="https://www.youtube.com/watch?v=dSPOyOzvKPw">video 02 - Entity Framework Model First- Importando Classes e Mapeamento - (10:58)</a>
+</td>
+<td>
+<a href="http://msdn.microsoft.com/en-us/data/ef.aspx"><strong>Entity Framework</strong></a> <img src="https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png" alt="Aprender Primeiro">
+</td>
+</tr>
+<tr>
+<td>Criar Web Services REST e WS-*/SOAP em diferentes tipos de protocolos, para comunicação entre aplicações</td>
+<td><a href="http://msdn.microsoft.com/en-us/library/dd456779.aspx">WCF</a></td>
+</tr>
+<tr>
+<td>Criar Web Services HTTP, para comunicação entre aplicações. Possui uma maneira mais madura de criar APIs RESTfull   <br><a href="https://www.youtube.com/watch?v=eWYxuqDbqw8">video 01 - Criando um projeto Web Api - (3:57)</a>
+</td>
+<td><a href="http://www.asp.net/web-api">ASP.NET WEB API</a></td>
+</tr>
+<tr>
+<td>Criar páginas web Single Page Applications</td>
+<td><a href="http://www.asp.net/single-page-application">ASP.NET SPA</a></td>
+</tr>
+<tr>
+<td>Criar aplicações de tempo real</td>
+<td><a href="http://www.asp.net/signalr">ASP.NET SignalR</a></td>
+</tr>
+<tr>
+<td>Trabalhar com ambiente em nuvem</td>
+<td><a href="http://azure.microsoft.com/pt-br/">Windows Azure</a></td>
+</tr>
+<tr>
+<td>Trabalhar com Injeção de dependências</td>
+<td><a href="https://unity.codeplex.com/">Unity</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><strong><a href="#tabela-de-conte%C3%BAdo">Voltar ao topo</a></strong></p>
+
+<h2>
+<a id="storage" class="anchor" href="#storage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Storage</h2>
+
+<table>
+<thead>
+<tr>
+<th>Finalidade</th>
+<th>Tecnologia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Realizar consultas em qualquer banco de dados relacional</td>
+<td>
+<a href="http://www.contrib.andrew.cmu.edu/%7Eshadow/sql/sql1992.txt"><strong>SQL ANSI</strong></a>  <img src="https://raw.githubusercontent.com/cleytonferrari/comecandodozero/master/assets/first.png" alt="Aprender Primeiro">
+</td>
+</tr>
+<tr>
+<td>Banco de dados NoSQL orientado a documentos</td>
+<td><a href="http://www.mongodb.org/">MongoDB</a></td>
+</tr>
+<tr>
+<td>Processamento e armazenamento de dados relacionais na nuvem</td>
+<td><a href="http://azure.microsoft.com/pt-br/services/sql-database/">SQL Azure</a></td>
+</tr>
+<tr>
+<td>Um dos principais SGBD do mercado  <br><a href="https://www.youtube.com/watch?v=wqJt2P9uVSs">video 01 - Instalação do Sql Server Express - (3:26)</a>  <br><a href="https://www.youtube.com/watch?v=5ChTw6DqbqY">video 02 - Sql Server - Erro ao acessar Instancia - (1:26)</a>  <br><a href="https://www.youtube.com/watch?v=zIBsTOtdwS0">video 03 - Sql Server - Criação de usuário - (3:32)</a> <br><a href="https://www.youtube.com/watch?v=hoVxK80afwQ&amp;feature=youtu.be">video 04 - Sql Server - Arquivo UDL - (2:23)</a>
+</td>
+<td><a href="http://www.microsoft.com/pt-br/server-cloud/products/sql-server/">SQL Server</a></td>
+</tr>
+<tr>
+<td>Um dos principais SGBD do mercado</td>
+<td><a href="https://www.oracle.com/database/index.html">Oracle</a></td>
+</tr>
+<tr>
+<td>Armazenamento de grande quantidade de dados não estruturados</td>
+<td><a href="http://azure.microsoft.com/pt-br/documentation/articles/storage-dotnet-how-to-use-blobs/">Azure Blob Storage</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><strong><a href="#tabela-de-conte%C3%BAdo">Voltar ao topo</a></strong></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/rodrigokono/comecandodozero">Começando do Zero</a> is maintained by <a href="https://github.com/rodrigokono">rodrigokono</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
   </body>
 </html>
