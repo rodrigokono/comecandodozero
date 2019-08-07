@@ -6,7 +6,7 @@
 
 **Já parou pra pensar quantas tecnologias você precisa saber para se tornar um desenvolvedor de software?** O primeiro passo pode ser mais difícil do que imaginamos, é uma avalanche de informação que impede a pessoa de avançe e obtenha foco no que realmente é preciso naquele momento inicial.
 
-Com base nisso, criei este repositório em 2014 logo após de [escrever um post](http://www.rodrigokono.net/oportunidade/comeando-do-zero-quais-tecnologias-preciso-aprender-hoje-e-porque/) que repercurtiu bastante e chamei carinhosamente de **Começando do Zero**. Em 2016, no saudoso aspnet{cast}, gravamos uma live falando um pouco mais sobre este assunto. [Vale a pena assistir](https://www.youtube.com/watch?v=B796oCWkkRw). Tivemos muitos e ótimos feedbacks neste video.
+Com base nisso, criei este repositório em 2014 logo após de [escrever um post](http://www.rodrigokono.net/oportunidade/comeando-do-zero-quais-tecnologias-preciso-aprender-hoje-e-porque/) que repercurtiu bastante e chamei carinhosamente de **Começando do Zero**. Em 2016, no saudoso aspnet{cast}, gravamos uma live falando um pouco mais sobre este assunto. [Vale a pena assistir](https://www.youtube.com/watch?v=B796oCWkkRw). Tivemos muitos e ótimos feedbacks neste video. 
 
 > Hoje, em 2019, gostaria de te convidar para continuar este projeto junto comigo até que ele ande sozinho e tome vida própria. Pode parecer utopia, mas acredito que isto é também uma forma de eu agradecer todos que me ajudaram até aqui. 
 
@@ -32,6 +32,9 @@ Mas você também pode ajudar caso você tenha boas condições de desenvolver a
   - Este guia é para pessoas iniciantes.
   - A ideia é simplificar. O menos é mais. Sabemos que isto pode se tornar extenso, cansativo e não é isso que queremos.  
   - Temos um [canal no Telegram](https://t.me/comecandodozero) para colaboração durante a criação deste guia. Toda ajuda é bem vinda.
+  
+## Legacy
+  - O conteúdo criado anteriormente ficou obsoleto e encontra-se acessível através do arquivo [legacy-content.md](legacy-content.md).
 
 ## Time
 
