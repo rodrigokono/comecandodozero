@@ -4,9 +4,9 @@
 
 [![Começando do Zero](assets/cover-comecandodozero.png)](https://#)
 
-Já parou pra pensar quantas tecnologias você precisa saber para se tornar um desenvolvedor de software? O primeiro passo pode ser mais difícil do que imaginamos, é uma avalanche de informação que impede a pessoa de avançe e obtenha foco no que realmente é preciso naquele momento inicial.
+**Já parou pra pensar quantas tecnologias você precisa saber para se tornar um desenvolvedor de software?** O primeiro passo pode ser mais difícil do que imaginamos, é uma avalanche de informação que impede a pessoa de avançe e obtenha foco no que realmente é preciso naquele momento inicial.
 
-Com base nisso, criei este repositório em 2014 logo após de [escrever um post](http://www.rodrigokono.net/oportunidade/comeando-do-zero-quais-tecnologias-preciso-aprender-hoje-e-porque/) que repercurtiu bastante e chamei carinhosamente de **Começando do Zero**. Em 2016, no saudoso aspnetcast, gravamos uma live falando mais sobre este assunto, [vale a pena assistir](https://www.youtube.com/watch?v=B796oCWkkRw), e tivemos muitos e ótimos feedbacks.
+Com base nisso, criei este repositório em 2014 logo após de [escrever um post](http://www.rodrigokono.net/oportunidade/comeando-do-zero-quais-tecnologias-preciso-aprender-hoje-e-porque/) que repercurtiu bastante e chamei carinhosamente de **Começando do Zero**. Em 2016, no saudoso aspnet{cast}, gravamos uma live falando um pouco mais sobre este assunto. [Vale a pena assistir](https://www.youtube.com/watch?v=B796oCWkkRw). Tivemos muitos e ótimos feedbacks neste video.
 
 > Hoje, em 2019, gostaria de te convidar para continuar este projeto junto comigo até que ele ande sozinho e tome vida própria. Pode parecer utopia, mas acredito que isto é também uma forma de eu agradecer todos que me ajudaram até aqui. 
 
@@ -44,11 +44,11 @@ Mas você também pode ajudar caso você tenha boas condições de desenvolver a
 
 > free slot
 
-#### Autores
+#### Desenvolvedores
 
 > free slot
 
-#### Revisores
+#### Autores
 
 > free slot
 
